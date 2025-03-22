@@ -14,11 +14,10 @@ class Options extends Components{
                         name="option"
                         value={option}
                         checked={selectOption === option}
-                        onChange={onOptionChange}>
+                        onChange={onOptionChange}></input>
                     <label className="form-check-label">
                         {option}
                     </label>
-                </div>
                 </div>))}
             </div>
         );
